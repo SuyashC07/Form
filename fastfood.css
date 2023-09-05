@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/Vadapav\ BG\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: rgba(255, 0, 0, 0.743);
+    width: 10%;
+    height: 100vh;
+}
+#contain{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgba(0, 255, 255, 0.697);
+}
+#drop{
+    position: relative;
+}
+
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgba(222, 225, 65, 0.787);
+    position: absolute;
+    display: none;
+    top: 0%;
+    left: 100%;
+}
+#drop:hover #menu{
+    display: block;
+}
+
+#NON{
+    position: relative;
+}
+#NONmenu{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgba(222, 225, 65, 0.787);
+    position: absolute;
+    display: none;
+    top: 0%;
+    left: 100%;
+}
+#NON:hover #NONmenu{
+    display: block;
+}
+
+#Vadapav{
+    position: relative;
+}
+#vadapavmenu{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgba(222, 225, 65, 0.787);
+    position: absolute;
+    display: none;
+    top: 0%;
+    left: 100%;
+}
+#vadapav:hover #vadapavmenu{
+    display: block;
+}
